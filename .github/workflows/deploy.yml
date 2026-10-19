@@ -10,9 +10,9 @@ permissions:
   pages: write
   id-token: write
 
-#concurrency:
-#  group: "pages"
-#  cancel-in-progress: false
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   # Build job: compiles Vite and packages the dist folder
@@ -25,7 +25,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
           cache: 'npm'
 
       - name: Install and Build
