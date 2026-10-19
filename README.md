@@ -1,0 +1,1 @@
+Technical spike / PoC testing Babylon.js 3D asset loading and Havok WebAssembly physics on GitHub Pages.

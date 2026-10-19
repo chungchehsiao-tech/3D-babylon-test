@@ -1,0 +1,14 @@
+{
+  "building-a": {
+    "title": "Town Hall",
+    "text": "The old administrative office. Records inside date back to the early frontier days."
+  },
+  "building-c": {
+    "title": "Supply Depot",
+    "text": "Crates of spare parts and emergency rations are stacked against the rusted wall."
+  },
+  "water-tower": {
+    "title": "Water Reserve",
+    "text": "The main reservoir looks dry. The emergency pump valve seems jammed shut."
+  }
+}
